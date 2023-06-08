@@ -25,7 +25,7 @@ const Login = () => {
     e.preventDefault();
     // set cookie here
     document.cookie = cookie.serialize("loggedIn=true, maxAge= 1000 * 60")
-    document.cookie = cookie.serialize("loggedIn=null, maxAge = 0");
+    
     navigate("/");
   };
 
